@@ -10,8 +10,8 @@ int main()
     cin>>X>>P;
     while(X>0)
     {
+        c=c+X;
         X=freecoffee(X,P);
-        c++;
     }
     cout<<c;
     return 0;
